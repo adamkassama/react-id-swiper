@@ -53,6 +53,9 @@ export default class ReactIdSwiper extends Component {
     renderPrevButton: PropTypes.func,
     renderNextButton: PropTypes.func,
     renderParallax: PropTypes.func,
+    
+    // keyboard
+    keyboard: PropTypes.any,
 
     // swiper parameter
     init: PropTypes.bool,
