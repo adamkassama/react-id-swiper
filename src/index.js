@@ -230,7 +230,7 @@ export default class ReactIdSwiper extends Component {
     ]),
 
     // keyboard
-    keyboard: PropTypes.bool,
+    keyboard: PropTypes.any,
 
     // mousewheel
     mousewheel: PropTypes.oneOfType([
